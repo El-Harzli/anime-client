@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import { useEffect } from 'react';
 import Button from '@components/shared/Button';
 

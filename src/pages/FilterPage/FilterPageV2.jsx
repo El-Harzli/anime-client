@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import { useSearchParams } from 'react-router';
 
 import TitledGridSection from '@components/layouts/TitledGridSection';

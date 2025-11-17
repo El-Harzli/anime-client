@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import RankCard from '@components/cards/RankCard';
 import RankCardSkeleton from '@components/cardsSkeleton/RankCardSkeleton';
 

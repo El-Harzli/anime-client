@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import Button from '@components/shared/Button';
 import TitledGridSection from '@components/layouts/TitledGridSection';
 import CustomPagination from '@components/shared/CustomPagination';

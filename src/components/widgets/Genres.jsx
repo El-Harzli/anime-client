@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import Button from '@components/shared/Button';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';

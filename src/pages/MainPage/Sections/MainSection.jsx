@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import TitledGridSection from '@components/layouts/TitledGridSection';
 import ContinueWatching from '@components/widgets/ContinueWatching';
 

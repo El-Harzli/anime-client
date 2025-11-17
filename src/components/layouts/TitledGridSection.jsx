@@ -2,7 +2,7 @@ import MainCard from '@components/cards/MainCard';
 import { Link } from 'react-router';
 import { FaChevronRight } from 'react-icons/fa';
 
-import { useAnime } from '@context/AnimeContext';
+import { useAnime } from '@context/animeContext';
 import MainCardSkeleton from '@components/cardsSkeleton/MainCardSkeleton';
 
 function TitledGridSection({ title, animeData = [], endpoint, loading }) {

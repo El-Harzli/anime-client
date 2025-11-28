@@ -20,6 +20,8 @@ import { useResponsiveToastPosition } from './hooks/useResponsiveToastPosition';
 import { StreamingProviders } from './providers/StreamingProviders';
 
 import NotFoundPage from './pages/NotFoundPage';
+import { Analytics } from "@vercel/analytics/react"
+
 
 const animeListRoutes = [
   {
@@ -83,6 +85,7 @@ function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
+      <Analytics />
     </>
   );
 }
